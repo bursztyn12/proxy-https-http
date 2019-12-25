@@ -137,6 +137,7 @@ public class ClientHandler implements Runnable {
         System.out.println(list);
         return list;
     }
+    
     public String processGet(String header) {
         String address = "";
         Pattern pattern = Pattern.compile("(.*)(://)(.*)");
