@@ -20,7 +20,7 @@ Additional assumption
 How it works
 
 1)In the main method of the Proxy class, we create a new object and pass the argument to the constructor
-  the value the port number on which the proxy should listen for connections from clients.
+  port number on which the proxy should listen for connections from clients.
 
 
 2)The proxyOn method from the Proxy class is called to accept connections from clients
